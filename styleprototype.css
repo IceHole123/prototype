@@ -28,7 +28,7 @@ h1.titreh1
 {
     font-style: normal;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: normal;
     font-family: arial, sans-serif;
 }
 .titre
@@ -59,4 +59,8 @@ h1.titreh1
 a:link
 {
     text-decoration:none;
+}
+strong
+{
+    font-weight: normal;
 }
