@@ -1,0 +1,62 @@
+body
+{
+    word-wrap:break-word;
+    text-align: justify;
+}
+h1.titreh1
+{
+    font-variant: small-caps;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: optima, sans-serif; 
+    text-decoration: underline;
+    text-align: center;
+}
+.sommaire
+{
+    font-style: italic;
+    font-size:17px;
+}
+.titresommaire
+{
+    font-style: normal;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: DejaVu Sans Mono, monospace;
+}
+.texte
+{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: arial, sans-serif;
+}
+.titre
+{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: DejaVu Sans Mono, monospace; 
+}
+.exemple
+{
+    font-size: 24px
+}
+.nomexemple
+{
+    font-style: italic;
+    font-size: 25px
+}
+.annexe
+{
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+.titreannexe
+{
+    font-size: 20px;
+    font-weight: 900;
+}
+a:link
+{
+    text-decoration:none;
+}
