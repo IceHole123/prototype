@@ -11,6 +11,7 @@ h1.titreh1
     font-family: optima, sans-serif; 
     text-decoration: underline;
     text-align: center;
+    color: #660000;
 }
 .sommaire
 {
@@ -23,6 +24,7 @@ h1.titreh1
     font-size: 25px;
     font-weight: normal;
     font-family: DejaVu Sans Mono, monospace;
+    color: #002080
 }
 .texte
 {
@@ -35,7 +37,8 @@ h1.titreh1
 {
     font-size: 25px;
     font-weight: 100;
-    font-family: DejaVu Sans Mono, monospace; 
+    font-family: DejaVu Sans Mono, monospace;
+    color: #800000 
 }
 .exemple
 {
@@ -44,7 +47,8 @@ h1.titreh1
 .nomexemple
 {
     font-style: italic;
-    font-size: 25px
+    font-size: 25px;
+    color: #595959;
 }
 .annexe
 {
@@ -63,4 +67,14 @@ a:link
 strong
 {
     font-weight: normal;
+}
+body
+{
+    background-image: url(fond5.jpg);
+    background-repeat: round;
+    background-attachment: scroll;
+}
+.lien
+{
+    color: black;
 }
