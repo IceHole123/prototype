@@ -78,3 +78,13 @@ body
 {
     color: black;
 }
+li
+{
+    list-style: url(lipoint.jpg);
+    list-style-position: inside;
+}
+.li2
+{
+    list-style: url(li2.jpg);
+    list-style-position: inside;
+}
