@@ -18,6 +18,22 @@ h1.titreh1
     font-style: italic;
     font-size:17px;
 }
+.sommaire1
+{
+    font-style: italic;
+    font-size:17px;
+    text-align:left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #999999;
+    border-bottom-color:white;
+    border-bottom-style: double;
+    border-bottom-width: 4px
+}
+table
+{
+    margin: auto;
+}
 .titresommaire
 {
     font-style: normal;
@@ -68,23 +84,59 @@ strong
 {
     font-weight: normal;
 }
-body
-{
-    background-image: url(fond5.jpg);
-    background-repeat: round;
-    background-attachment: scroll;
-}
+
 .lien
 {
     color: black;
-}
-li
-{
-    list-style: url(lipoint.jpg);
-    list-style-position: inside;
 }
 .li2
 {
     list-style: url(li2.jpg);
     list-style-position: inside;
+}
+.main
+{
+    padding-left:1%;
+    background-image: url(fond5.jpg);
+    background-repeat: round;
+    background-attachment: scroll; 
+    z-index:1;   
+}
+header
+{
+    background-color:black;
+    background-size: contain;
+    border-bottom-color:#999999;
+    border-bottom-style: double;
+    border-bottom-width: 4px
+}
+
+.entete2
+{
+    padding-left:5%;
+    font-size:40px;
+    font-variant:small-caps;
+    color: white;
+    position:relative;
+    left:23%;
+    bottom:50px;
+    display: inline;
+    text-align: center
+}
+.entete1
+{
+    padding-left:5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position:relative;
+    left:28%;
+}
+table, td
+{
+    border:2px solid black
+
+}
+td
+{
+    background-color: rgb(240, 240, 240);
 }
