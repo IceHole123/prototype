@@ -19,11 +19,19 @@ h1.titreh1
 }
 .sommaire
 {
+    width:15%;
+    grid-area:sommaire;
     font-style: italic;
-    font-size:17px;
+    font-size:15px;
+    background-color:rgb(224, 125, 44);
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
 }
 .sommaire1
 {
+    grid-area: menudenav;
     font-style: italic;
     font-size:17px;
     text-align:left;
@@ -72,6 +80,7 @@ table
 }
 .annexe
 {
+    grid-area: annex;
     font-size: 15px;
     font-family: arial, sans-serif;
 }
@@ -104,6 +113,7 @@ strong
 }
 .main
 {
+    grid-area:principal;
     padding-left:1%;
     background-repeat: round;
     background-attachment: scroll; 
@@ -111,14 +121,13 @@ strong
 }
 header
 {
+    grid-area:entete;
     background-color:black;
     border-bottom-color:rgb(255, 187, 0);
     border-bottom-style: double;
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:auto    
+    flex-wrap: wrap;  
 }
 
 .entete2
@@ -126,7 +135,6 @@ header
     font-variant:small-caps;
     color:rgb(255, 187, 0);
     order:2;
-    vertical-align: middle;
     padding-top:2.5%;
     font-size:30px;
 }
@@ -142,4 +150,13 @@ table, td
 td
 {
     background-color: rgb(245, 245, 245);
+}
+.grille
+{
+    display: grid;
+    grid-template-columns: 15fr 85fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:" . entete "
+                        " . menudenav "
+                        " . principal "
 }
